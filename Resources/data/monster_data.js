@@ -3,14 +3,14 @@
  */
 function getData() {
 	var data = [
-		{ username: 'Monster 1', exp: 42, image: '1.png' },
-		{ username: 'Monster 2', exp: 123, image: '2.png' },
-		{ username: 'Monster 3', exp: 76, image: '3.png' },
-		{ username: 'Monster 4', exp: 82, image: '4.png' },
-		{ username: 'Monster 5', exp: 111, image: '5.png' },
-		{ username: 'Monster 6', exp: 234, image: '6.png' },
-		{ username: 'Monster 7', exp: 16, image: '7.png' },
-		{ username: 'Monster 8', exp: 99, image: '8.png' },
+		{ username: 'Plagueserpent', exp: 42, image: '1.png', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
+		{ username: 'Thornwraith', exp: 123, image: '2.png', description: 'Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.' },
+		{ username: 'Murkflayer', exp: 76, image: '3.png' , description: "Lorizzle ipsum dolor sizzle amizzle, i saw beyonces tizzles and my pizzle went crizzle my shizz elit. Nullam da bomb velit, aliquet mammasay mammasa mamma oo sa, ghetto quizzle, mofo vizzle, arcu. Pellentesque eget break it down. Sizzle erizzle. Shiznit pimpin' dolizzle i'm in the shizzle funky fresh tempizzle yo. Mauris for sure mofo yo the bizzle. That's the shizzle izzle dizzle. Pellentesque eleifend rhoncus nisi. In its fo rizzle habitasse platea my shizz."},
+		{ username: 'Frighthag', exp: 82, image: '4.png', description: 'Lorem fistrum te voy a borrar el cerito diodeno quietooor. Amatomaa pecador llevame al sircoo hasta luego Lucas diodenoo jarl al ataquerl apetecan hasta luego Lucas. A peich caballo blanco caballo negroorl no te digo trigo por no llamarte Rodrigor no puedor tiene musho peligro papaar papaar al ataquerl a peich a wan de la pradera. Sexuarl condemor diodenoo está la cosa muy malar. No puedor sexuarl al ataquerl mamaar por la gloria de mi madre mamaar.' },
+		{ username: 'Spectralmutant', exp: 111, image: '5.png', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
+		{ username: 'Cavefoot', exp: 234, image: '6.png', description: 'Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.' },
+		{ username: 'Gasthing', exp: 16, image: '7.png', description: "Lorizzle ipsum dolor sizzle amizzle, i saw beyonces tizzles and my pizzle went crizzle my shizz elit. Nullam da bomb velit, aliquet mammasay mammasa mamma oo sa, ghetto quizzle, mofo vizzle, arcu. Pellentesque eget break it down. Sizzle erizzle. Shiznit pimpin' dolizzle i'm in the shizzle funky fresh tempizzle yo. Mauris for sure mofo yo the bizzle. That's the shizzle izzle dizzle. Pellentesque eleifend rhoncus nisi. In its fo rizzle habitasse platea my shizz." },
+		{ username: 'Stinkgirl', exp: 99, image: '8.png', description: 'Lorem fistrum te voy a borrar el cerito diodeno quietooor. Amatomaa pecador llevame al sircoo hasta luego Lucas diodenoo jarl al ataquerl apetecan hasta luego Lucas. A peich caballo blanco caballo negroorl no te digo trigo por no llamarte Rodrigor no puedor tiene musho peligro papaar papaar al ataquerl a peich a wan de la pradera. Sexuarl condemor diodenoo está la cosa muy malar. No puedor sexuarl al ataquerl mamaar por la gloria de mi madre mamaar.' },
 	];
 	return data;
 }

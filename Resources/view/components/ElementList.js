@@ -10,13 +10,12 @@ function ElementList(data){
 		var defaultFontSize = Ti.Platform.name === 'android' ? 16 : 14;
 		var oddRow = false;
 		
-		//
-		// ADD YOUR CODE HERE
 		for (var i=0, j=data.length; i<j; i++) {
 		  var item = data[i];
 		    var row = Ti.UI.createTableViewRow({
 		    height: 70,
-		    backgroundColor: oddRow ? '#fff' : '#eee'
+		    backgroundColor: oddRow ? '#fff' : '#eee',
+		    monster: item
 		  });
 		  var image = Ti.UI.createImageView({
 			image: '/images/'+item.image,
@@ -43,6 +42,11 @@ function ElementList(data){
 		}
 		var tableView = Ti.UI.createTableView({ data: tableData, left: 8, right: 8});
 		this.box = tableView;
+		tableView.addEventListener('touchstart', function (e){
+			
+			var MonstersInfo = require('view/screens/MonstersInfo');
+			var monsters = new MonstersInfo(e.row.monster);
+		});
 	};
 	this.build();
 }

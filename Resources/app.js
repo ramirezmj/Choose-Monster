@@ -1,6 +1,6 @@
 var defaultFontSize = Ti.Platform.name === 'android' ? 16 : 14;
 var win = Ti.UI.createWindow({
-	title: 'TableView Demo',
+	title: 'Choose a Monster',
 	backgroundColor: '#0cf',
 });
 var Monsters = require('view/screens/Monsters');
